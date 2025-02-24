@@ -2,6 +2,11 @@
 // Copyright (C) 2022-2025 The LineageOS Project
 // SPDX-License-Identifier: Apache-2.0
 //
+soong_config_module_type {
+    name: "jacoco",
+    description: "Jacoco Code Coverage",
+    value_type: "bool",
+}
 
 soong_config_module_type {
     name: "mpss_firmware_symlink",
