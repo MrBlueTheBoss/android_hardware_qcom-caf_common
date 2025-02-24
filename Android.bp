@@ -3,12 +3,6 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 soong_config_module_type {
-    name: "jacoco",
-    description: "Jacoco Code Coverage",
-    value_type: "bool",
-}
-
-soong_config_module_type {
     name: "mpss_firmware_symlink",
     module_type: "install_symlink",
     config_namespace: "rfs",
